@@ -816,6 +816,11 @@
     global-agent "^2.0.2"
     global-tunnel-ng "^2.7.1"
 
+"@master.technology/permissions@latest":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@master.technology/permissions/-/permissions-2.0.1.tgz#c05b7cf876fbd585640d48f6598e51c834d860bd"
+  integrity sha512-QOHxOlsbRabluKJ3HQn2VrOXDUr4PmatXyXIkJvGbVyqIMucYvpNF/aGEFVfhyXSUkzWx+ztWY9iLrCyp4RfVw==
+
 "@nativescript/core@*":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@nativescript/core/-/core-6.5.8.tgz#24ec6981fa86c04524b024ede4870879dd5fdbb8"
@@ -4249,6 +4254,13 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-audio@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/nativescript-audio/-/nativescript-audio-5.1.1.tgz#ef78c79a3332461e6b76f98a2db041218ccc4bef"
+  integrity sha512-tLtNKnaNzv21ozPQJnL7Jg/zSF8hX/slu51bPlfV1RFDbUDZibFDgUUEi9ekpMVhnxdzTCsc/tX+MEQZhphctQ==
+  dependencies:
+    nativescript-permissions "~1.3.9"
+
 nativescript-dev-webpack@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.5.1.tgz#1ad4492bbafe94e183a222a3d5654ca98a1bedae"
@@ -4300,6 +4312,13 @@ nativescript-hook@0.2.5:
   dependencies:
     glob "^6.0.1"
     mkdirp "^0.5.1"
+
+nativescript-permissions@~1.3.9:
+  version "1.3.12"
+  resolved "https://registry.yarnpkg.com/nativescript-permissions/-/nativescript-permissions-1.3.12.tgz#e75efb6fab83d594c8b97f4bda1ff8ec82dc57a4"
+  integrity sha512-XNxITo08vRHwPNT8fe7MpoZ9C+GQs2G4KBbQ1yan9WDTgecnhWsxtmBEWtFd9zWoa4UTwpFQ+w4O4eDSpG8Efw==
+  dependencies:
+    "@master.technology/permissions" latest
 
 nativescript-socketio@^3.3.1:
   version "3.3.1"
@@ -5054,9 +5073,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"
